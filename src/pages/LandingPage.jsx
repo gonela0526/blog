@@ -37,9 +37,9 @@ const LandingPage = () => {
         <section className="featured-section">
           <h4>🔥 Featured Blogs</h4>
           <div className="blog-card">
-            <h5>Getting Started with Spring Boot</h5>
-            <p>Learn how to set up your first Spring Boot project in minutes.</p>
-            <Link to="/blogs/spring-boot-intro">Read More →</Link>
+            <h5>Java 8 Features Explained with Examples</h5>
+            <p>A deep dive into Java 8’s most important features, with clear explanations and code samples.</p>
+            <Link to="/java8-features-explained-with-examples">Read More →</Link>
           </div>
         </section>
       </div>

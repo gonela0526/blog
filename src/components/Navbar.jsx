@@ -9,7 +9,7 @@ const Navbar = () => {
       <ul className="navbar-links">
         <li><Link to="/">Home</Link></li>
         <li><Link to="/blogs">Blogs</Link></li>
-        <li><a href="https://github.com/" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+        <li><a href="https://github.com/gonela0526" target="_blank" rel="noopener noreferrer">GitHub</a></li>
       </ul>
     </nav>
   );

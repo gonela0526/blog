@@ -1,11 +1,17 @@
 import React from 'react';
 import './BlogPage.css';
 import { useParams } from 'react-router-dom';
+import Navbar from './Navbar';
+import Footer from './Footer';
 
 const BlogPage = () => {
   const { slug } = useParams();
 
   return (
+    <>
+    <div className="sticky-navbar">
+        <Navbar />
+      </div>
     <div className="blog-container">
       <article className="blog-post">
         <h1>Mastering Spring Boot REST APIs</h1>
@@ -28,6 +34,8 @@ const BlogPage = () => {
         </div>
       </article>
     </div>
+    <Footer />
+    </>
   );
 };
 
