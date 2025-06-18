@@ -21,7 +21,7 @@ const LandingPage = () => {
           <h2>What is CodeThrive?</h2>
           <p>
             CodeThrive is your developer hub for hands-on Java and Spring Boot content.
-            Learn by building, explore backend principles, and thrive in your software career.
+            Learn by building, explore backend principle, and thrive in your software career.
           </p>
         </section>
 
