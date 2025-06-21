@@ -10,6 +10,11 @@ const blogs = [
     title: 'Java 8 Features Explained with Examples',
     description: 'A deep dive into Java 8’s most important features, with clear explanations and code samples.',
   },
+  {
+    slug: '/streams-vs-loops-in-java:performance-and-readability',
+    title: 'Streams vs Loops in Java: Performance and Readability',
+    description: 'A comprehensive comparison of Java Streams and traditional loops focusing on performance, readability, and best use cases with real-world examples.',
+  },
 //   {
 //     slug: '/Sampleblog',
 //     title: 'Mastering Spring Boot REST APIs',
